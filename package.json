@@ -1,0 +1,22 @@
+{
+  "name": "myfirstblog",
+  "version": "1.0.0",
+  "description": "this is my first pro start",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd severApi && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shusong-imooc/MyfirstBlog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "shusong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shusong-imooc/MyfirstBlog/issues"
+  },
+  "homepage": "https://github.com/shusong-imooc/MyfirstBlog#readme"
+}
