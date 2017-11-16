@@ -4,7 +4,10 @@
   "description": "this is my first pro start",
   "main": "index.js",
   "scripts": {
-    "test": "cd severApi && npm run dev"
+    "startseverApi": "cd severApi && npm run start",
+    "startwebapp": "cd webapp && npm run dev",
+    "starthome": "cd home && npm run dev",
+    "startadmin": "cd admin && npm run dev"
   },
   "repository": {
     "type": "git",
