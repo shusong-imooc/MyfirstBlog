@@ -1,9 +1,8 @@
 var express = require('express');
+var PATH =require('path')
 var router = express.Router();
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+require("../utils/router").appsRoute(PATH.join(__dirname,'/api'),'',router);
 
 module.exports = router;
