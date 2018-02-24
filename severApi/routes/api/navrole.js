@@ -6,11 +6,13 @@ router.get('/index',function(req,res,next){
     let b=db.query(`select id,name,password from users`)
     Promise.all([a,b]).then((result)=>{
         console.log(result);
-        res.json({code:200,msg:'请求测试成功'});
+        res.json({
+            "success":true,
+            "data1":{}
+        });
     }).catch(err=>{
         console.log(err)
-    })
-    
+    })    
 })
 
 
